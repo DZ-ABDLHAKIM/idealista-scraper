@@ -145,7 +145,7 @@ This actor operates with a **monthly rental subscription** plus charges for the 
 ### **Pricing Structure:**
 - **Monthly Rental**: $4.99/month (auto-renewing subscription)
 - **API Costs**: $0.003 per property (for internal Idealista Scraper API calls)
-- **7-Day Free Trial**: Test the actor before committing to subscription
+- **3-Day Free Trial**: Test the actor before committing to subscription
 
 ### **Cost Breakdown Per Property:**
 **Idealista Scraper API Costs** (called internally for each property):
@@ -171,30 +171,11 @@ This actor operates with a **monthly rental subscription** plus charges for the 
 Monthly Total = $4.99 + (Number of Properties × $0.003)
 ```
 
-### **Comparison with Old Pay-Per-Use Model:**
-
-| Properties | Old Model | New Model | Difference |
-|------------|-----------|-----------|------------|
-| 10 properties | $0.036 | $5.02 | Higher by $4.98 |
-| 100 properties | $0.342 | $5.29 | Higher by $4.95 |
-| 500 properties | $1.702 | $6.49 | Higher by $4.79 |
-| 1,000 properties | $3.402 | $7.99 | Higher by $4.59 |
-| 2,000 properties | $6.802 | $10.99 | Higher by $4.19 |
-| 5,000 properties | $17.002 | $19.99 | Higher by $2.99 |
-| 10,000 properties | $34.002 | $34.99 | Higher by $0.99 |
-
-> 💡 **Best for High-Volume Users**: The subscription model is most cost-effective for users who need consistent access and extract large numbers of properties regularly.
-
 ### **Additional Platform Costs:**
 You'll still pay standard Apify platform costs for:
 - **Compute Units**: For running the actor
 - **Storage**: For storing extracted data
 - **Residential Proxies**: Already included in Apify proxy costs
-
-**Estimated Platform Costs:**
-- **Light Usage** (1-100 properties): ~$0.10-$1.00
-- **Medium Usage** (100-1,000 properties): ~$1.00-$5.00
-- **Heavy Usage** (1,000+ properties): ~$5.00-$15.00
 
 ---
 
@@ -304,7 +285,7 @@ This actor:
 
 ## 🎯 Getting Started
 
-1. **Start Free Trial**: Activate the 7-day free trial
+1. **Start Free Trial**: Activate the 3-day free trial
 2. **Test the Actor**: Run small extractions to verify functionality
 3. **Subscribe**: Convert to monthly subscription for unlimited access
 4. **Scale Up**: Extract thousands of properties with confidence
